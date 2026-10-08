@@ -1,0 +1,20 @@
+{
+  "name": "discord-gameidea-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that creates Roblox game ideas and starter code with per-user sign in and memory.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "openai": "^4.67.3"
+  }
+}
